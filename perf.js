@@ -80,3 +80,20 @@ Adding/Removing an element to the beginning of an array would mean that javascri
 .push and .pop always faster than .shift/.unshift
 
 Most Array methods are O(n) besides .sort which is O(N*logN), push and pop are O(1)
+
+// Objects are efficient
+// insertion: O(1)
+// removal: O(1)
+// search: O(n)
+// access: O(1)
+// object.keys: O(n)
+// object.values: O(n)
+// object.entries: O(n)
+// hasOwnProperty: O(1)
+
+// Arrays are a bit less efficient
+// insertion: depends, O(1) if adding to the end of the array. 
+//                     O(n) if adding to the start because the entire array needs to be re-indexed
+// remove: depends same as insertion
+// search: O(n)
+// access: O(1)
