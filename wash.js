@@ -142,3 +142,4 @@ function sameFrequency(num1, num2){
           maxSum = Math.max(maxSum,tempSum)
         }
       return maxSum
+      
