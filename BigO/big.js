@@ -29,3 +29,14 @@ console.log(`time Elapsed: ${(t2 - t1) / 1000} seconds.`)
 //Math.min
 //Math.max
 //Math.ceil
+
+
+
+//Write a function that will calculate the sum of all number from 1 up until and including n
+function addUpTo(n){
+  let total = 0
+for (let i = 1; i <= n ;i++){
+  total += i 
+}
+return total 
+}
