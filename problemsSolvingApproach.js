@@ -27,3 +27,9 @@ function charCount (str) {
   //return an object lower case alpha number keys
 }
 
+1) HWat are the inputs going into the pronblem?
+2) what are the outputs?
+3) Can the outputs be determined from the inputs?
+4) how can i label the really imporant pieces of information in the problem?
+
+

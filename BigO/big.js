@@ -46,6 +46,8 @@ But inserting and removal ---depends on where the insertion is. If we add someth
 begining. Shifts all the indeces over. Everything has to be reindexed. Imagine have thousands of elements in an array. 
 The same goes for removing from the begining. Once again everything has to be reindexed in the other direction.
 
+push and pop are always faster then shift and unshift
+
 searching is O(n)
 
 
