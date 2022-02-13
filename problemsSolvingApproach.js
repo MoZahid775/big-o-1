@@ -33,3 +33,5 @@ function charCount (str) {
 4) how can i label the really imporant pieces of information in the problem?
 
 
+
+ 
