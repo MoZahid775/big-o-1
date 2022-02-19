@@ -78,3 +78,20 @@ function same(str1, str2){
   }
   
   same("hits", "hits")
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   OTHER USEFUL FUNCTIONS
+
+//   console.log(str.toLowerCase())
+//   console.log(str.toDownCase())
