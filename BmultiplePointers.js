@@ -61,3 +61,62 @@ function sumZero(arr){
 }
 
   
+
+//2/21/22
+//attempt at counting unique values
+
+function countUniqueValues(arr){
+
+    let obj = {}
+    let count = 0 
+      
+       for( let i = 0; i < arr.length; i++){
+         let int = arr[i]
+            if (obj[int]){
+            
+              obj[int]++
+            }else{
+              obj[int] = 1
+            }
+    
+       }
+          
+    let keysArr = Object.keys(obj)
+    console.log(keysArr.length)
+      
+    return count
+      
+    }
+    
+    countUniqueValues([-2,-1,3,3,3,4])
+
+    //fucked up redo without help
+    function countUniqueValues(arr){
+        if (arr.length == 0){
+          return 0
+        } else if (arr.length == 1){
+            return 1
+          }
+          
+        let count = 0 
+        let int = 0
+          
+           for( let j = 1; j < arr.length; j++){
+            if (arr[int] !== arr[j]){
+              int++
+              arr[int]= arr[j]
+            }else{
+             console.log(arr[int])
+            }
+            
+            console.log(arr[int])
+           }
+             console.log(int+1)
+        
+        cout = int+1
+          
+        return count
+          
+        }
+        
+        countUniqueValues([1,1,1,1,1,1,5])
